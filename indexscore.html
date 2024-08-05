@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylescore.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                    <div id="buttons">
+                    <button class="home-score-btn-1" onclick="increaseHomeScoreOne()">+1</button>
+                    <button class="home-score-btn-2" onclick="increaseHomeScoreTwo()">+2</button>
+                    <button class="home-score-btn-3" onclick="increaseHomeScoreThree()">+3</button>
+                    <button class="reset-score-btn" onclick="resetHomeScoreToZero()">Reset</button>
+                </div>
+                </div>     
+        <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <div id="buttons">
+                <button class="guest-score-btn-1" onclick="increaseGuestScoreOne()">+1</button>
+                <button class="guest-score-btn-2" onclick="increaseGuestScoreTwo()">+2</button>
+                <button class="guest-score-btn-3" onclick="increaseGuestScoreThree()">+3</button>
+                <button class="reset-score-btn" onclick="resetGuestScoreToZero()">Reset</button>
+                </div> 
+        </div>        
+                            
+
+
+        </div>
+        <script src="scriptscore.js"></script>
+    </body>
+</html>
